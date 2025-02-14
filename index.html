@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio - Lassina COULIBALY</title>
+    <!-- Ajouter l'icone du site -->
+    <link rel="shortcut icon" href="./photo_profil_github.png">
+
+    <!-- Rattacher le fichier css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En tete de la page  -->
+     <header>
+        <nav>
+            <div id="accueil">
+                <a href="#bienvenue">Portfolio</a>
+            </div>
+            <div id="nav-bar">
+                <a href="#a-propos">A propos</a>
+                <a href="#travail">Travail</a>
+                <a href="#cv">CV</a>
+                <a href="#contact">Contact</a>
+
+                <div >
+                    <a href="#contact-me">
+                        <img src="/logo-contact.png" alt="Me contacter" height="35px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+     <!-- Contenu principal de la page -->
+    <main>
+        <!-- Represente un peu ma section accueil -->
+        <div class="group-1">
+            <section id="bienvenue">
+                <h2>Bienvenue sur mon portfolio</h2>
+                <div>
+                    Je viens tout juste de commencer mon parcours dans le monde de l'informatique avec mes premiers cours en developpement web.
+                </div>
+                <div>
+                    <p>Ceci a été ma première video inserée sur une page</p>
+                    <!-- Ajout d'une video -->
+                    <video src="./video html.mp4" autoplay muted loop height="200"></video>
+                </div>
+            </section>
+            
+            <div class="section-photo">
+                <!-- Ajout d'une image -->
+                <img src="photo_profil_github.png" alt="photo profil" id="photo">
+                <h1>Lassina COULIBALY</h1>
+            </div>
+
+            <!-- section a propos -->
+            <section id="a-propos">
+                <h2>A propos</h2>
+                <p>
+                    <ul>
+                        <li>Opticien de formation.</li>
+                        <li><strong>En cours d'apprentissage</strong> : HTML, CSS et JavaScript.</li>
+                        <li><strong>Objectif immediat</strong> : Pouvoir réaliser mes propres sites internet.</li>
+                </p>
+            </section>
+        </div>
+
+        <div class="group-2">
+            <!-- section travail -->
+            <section id="travail">
+                <h2>Travail</h2>
+                <p>Aucun projet realisé pour le moment en developpement web. En pleine formation pour reinventer les choses.</p>
+            </section>
+
+            <!-- section cv -->
+            <section id="cv">
+                <h2>CV</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <h3>Experience</h3>
+                            <p>Aucune pour le moment</p>
+                        </li>
+                        <br>
+                        <li>
+                            <h3>Formation</h3>
+                            <p>Développement web - <strong>GoMyCode</strong></p>
+                        </li>
+                        <br>
+                        <li>
+                            <h3>Compétences</h3>
+                            <p>HTML : Débutant</p>
+                            <p>CSS : Débutant</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- section contact -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <form action="" class="formulaire">
+                    <div>
+                        <label for="nom">Nom :</label>
+                        <input id="nom" type="text" placeholder="Enttrez votre nom">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email" name="" id="mail" placeholder="Entrez votre email">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea placeholder="Votre message" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div>
+            <span>Email : </span><a href="mailto:lassinacoulialy@hotmail.fr">lassinacoulialy@hotmail.fr</a>
+        </div>
+        <div id="contact-me">
+            <!-- target="_blank" crée un nouvel onglet -->
+            <span>GitHub : </span><a href="https://github.com/LassoCoul" target="_blank">github.com/LassoCoul</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9E9E9;
+    height: 50px;
+    /* padding: 20px; */
+}
+
+nav a {
+    color: black;
+    font-size: 110%;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+
+}
+
+#accueil {
+    padding-left: 20px;
+
+}
+
+.group-1 {
+    display: flex;
+    background-color:#363941;
+    margin-top: 50px;
+}
+
+#bienvenue, .section-photo, #a-propos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F3FAFF;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.section-photo > img {
+    border-style:solid;
+    border-width: 10px;
+    border-color: #4D86DD;
+    border-radius: 100%;
+}
+
+.group-2 {
+    display: flex;
+    background-color: #B9BBBC;
+    justify-content: space-between;
+}
+
+#travail, #cv, #contact {
+    display : flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+#travail, #contact {
+    background-color: #E8E8E8;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5C5C5;
+    padding: 20PX;
+}
